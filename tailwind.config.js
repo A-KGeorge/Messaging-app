@@ -6,7 +6,11 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      borderRadius: {
+        large: "25px",
+      },
+    },
   },
   plugins: [
     require("@tailwindcss/forms")({
